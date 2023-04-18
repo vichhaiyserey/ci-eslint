@@ -4,8 +4,7 @@
   "description": "test GitHub action ci with ESLint",
   "main": "index.js",
   "scripts": {
-    "build": "tsc --build",
-    "clean": "tsc --build --clean",
+    "build":"echo just test build...",
     "test": "jest --coverage",
     "test:watch": "jest --watch"
   },
